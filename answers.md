@@ -89,4 +89,90 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         answers.md
 
+-----------------------------------------------------------------------------
 
+Answer 6.
+
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
+
+-----------------------------------------------------------------------------
+
+Answer 7.
+
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+-----------------------------------------------------------------------------
+
+Answer 8.
+
+Author: Eman Gurung <egurung1117@gmail.com>
+Date:   Fri Jan 24 15:05:49 2025 -0500
+
+    Initial commit
+    
+-----------------------------------------------------------------------------
+
+Answer 9. 
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+-----------------------------------------------------------------------------
+
+Answer 10. No because our local machine needs to retrieve the changes from the remote repository
+
+-----------------------------------------------------------------------------
+
+Answer 11. 
+
+To github.com:winterwithouther/git-lab.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:winterwithouther/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+-----------------------------------------------------------------------------
+
+Answer 12.
+
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1002 bytes | 1002.00 KiB/s, done.
+From github.com:winterwithouther/git-lab
+   3ab35eb..aa0e8dd  main       -> origin/main
+Updating 3ab35eb..aa0e8dd
+Fast-forward
+ README.md | 3 ++-
+ 
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ -----------------------------------------------------------------------------
+
+ Answer 13. 
+
+ .  ..  .git  .gitignore  README.md
